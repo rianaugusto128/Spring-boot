@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Calculadora</h1>
+
+    <form id="clcForm">
+        <input type="number" id="num1" name="num1" placeholder="insira 1 numero" required>
+
+        <select id="operacao" required>
+            <option value="" disabled selected>--- Selecione ---</option>
+            <option value="somar">Somar</option>
+            <option value="subtrair">Subtrair</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+        </select>
+
+        <input type="number" id="num2" name="num2" placeholder="insira 1 numero" required>
+
+        <button>Calcular</button>
+        
+        <div class="result" id="erro"></div>
+        <div class="result" id="resultado"></div>
+    </form>
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
