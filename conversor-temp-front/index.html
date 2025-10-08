@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+
+    <form id="clcForm">
+        <input type="number" id="num1" name="num1" placeholder="Digite o valor" required>
+
+        <label for="de">Converter de:</label>
+        <select id="de" required>
+            <option value="" disabled selected>--- Selecione ---</option>
+            <option value="celsius">Celsius (ºC)</option>
+            <option value="fahrenheit">Fahrenheit (ºF)</option>
+            <option value="kelvin">Kelvin (K)</option>
+        </select>
+
+        <label for="para">Para:</label>
+        <select id="para" required>
+            <option value="" disabled selected>--- Selecione ---</option>
+            <option value="celsius">Celsius (ºC)</option>
+            <option value="fahrenheit">Fahrenheit (ºF)</option>
+            <option value="kelvin">Kelvin (K)</option>
+        </select>
+
+        <button type="submit">Calcular</button>
+
+        <div class="result" id="erro" style="color: red;"></div>
+        <div class="result" id="resultado" style="color: green; font-weight: bold;"></div>
+    </form>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+form {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
