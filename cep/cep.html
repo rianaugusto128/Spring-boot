@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1></h1>
+    <form method="get" action=".">
+        <label> Cep:
+            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" />
+        </label>
+        <label> Rua:
+            <input name="rua" type="text" id="rua" size="60" />
+        </label>
+        <label> Bairro:
+            <input name="bairro" type="text" id="bairro" size="40" />
+        </label>
+        <label> Cidade:
+            <input name="cidade" type="text" id="cidade" size="60" />
+        </label>
+        <label> Estado:
+            <input name="uf" type="text" id="uf" size="2" />
+        </label>
+        <label> Complemento:
+            <input name="complemento" type="text" id="complemento" size="40" />
+        </label>
+        <label> unidade:
+            <input name="unidade" type="text" id="unidade" size="60" />
+        </label>
+        <label> Região:
+            <input name="regiao" type="text" id="regiao" size="20" />
+        </label>
+        <label> IBGE:
+            <input name="ibge" type="text" id="ibge" size="100" />
+        </label>
+        <label> DDD:
+            <input name="ddd" type="text" id="ddd" size="20" />
+        </label>
+        <label> gia:
+            <input name="gia" type="text" id="gia" size="20" />
+        </label>
+        <label> siafi:
+            <input name="siafi" type="text" id="siafi" size="20" />
+        </label>
+    </form>
+    <script src="js/cep.js"></script>
+</body>
+
+</html>
